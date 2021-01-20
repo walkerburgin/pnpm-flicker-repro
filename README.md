@@ -40,4 +40,5 @@ This repro is a small repro for [pnpm#2928](https://github.com/pnpm/pnpm/issues/
              dev: false
              engines:
         ```
+
     The addition of the `tarball:` lines is unexpected.
