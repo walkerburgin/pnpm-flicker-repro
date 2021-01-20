@@ -1,0 +1,85 @@
+importers:
+  .:
+    devDependencies:
+      typescript: 4.0.5
+    specifiers:
+      typescript: ~4.0.5
+  packages/bar-lib:
+    dependencies:
+      react: 16.14.0
+    devDependencies:
+      '@types/react': 16.14.2
+    specifiers:
+      '@types/react': ^16.14.0
+      react: ^16.14.0
+  packages/foo-lib:
+    dependencies:
+      react: 16.14.0
+    devDependencies:
+      '@types/react': 16.14.2
+    specifiers:
+      '@types/react': ^16.14.0
+      react: ^16.14.0
+lockfileVersion: 5.2
+packages:
+  /@types/prop-types/15.7.3:
+    dev: true
+    resolution:
+      integrity: sha1-KrDV2i5YFflLC51LldHl8kOrLKc=
+  /@types/react/16.14.2:
+    dependencies:
+      '@types/prop-types': 15.7.3
+      csstype: 3.0.6
+    dev: true
+    resolution:
+      integrity: sha1-hdzAlH0GRTSZI8BMzvYBihq3U4w=
+  /csstype/3.0.6:
+    dev: true
+    resolution:
+      integrity: sha1-hl0LWDPX2NQPTluKbXauo95HJe8=
+  /js-tokens/4.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-GSA/tZmR35jjoocFDUZHzerzJJk=
+  /loose-envify/1.4.0:
+    dependencies:
+      js-tokens: 4.0.0
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=
+  /object-assign/4.1.1:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+  /prop-types/15.7.2:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      react-is: 16.13.1
+    dev: false
+    resolution:
+      integrity: sha1-UsQedbjIfnK52TYOAga5ncv/psU=
+  /react-is/16.13.1:
+    dev: false
+    resolution:
+      integrity: sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
+  /react/16.14.0:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      prop-types: 15.7.2
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-lNd23dCqo32j7aj8W2sYpMmjEU0=
+  /typescript/4.0.5:
+    dev: true
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha1-rp3d/RBp8ctb6z7zshcN18EzI4k=

@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "module": "esnext",
+      "moduleResolution": "node",
+      "strict": true,
+      "outDir": "../dist",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "jsx": "react",
+      "lib": ["ES2020"]
+    },
+    "include": ["**/*.ts", "**/*.tsx"]
+}

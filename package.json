@@ -1,0 +1,19 @@
+{
+  "name": "pnpm-flicker-repro",
+  "version": "0.0.0",
+  "description": "Monorepo root",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walkerburgin/pnpm-flicker-repro.git"
+  },
+  "author": "Walker Burgin <walkerburgin@gmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "typescript": "~4.0.5"
+  },
+  "bugs": {
+    "url": "https://github.com/walkerburgin/pnpm-flicker-repro/issues"
+  },
+  "homepage": "https://github.com/walkerburgin/pnpm-flicker-repro#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "bar-lib",
+  "version": "0.0.0",
+  "description": "Bar lib",
+  "scripts": {
+    "build": "tsc -p src/"
+  },
+  "author": "Walker Burgin <walkerburgin@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+      "react": "^16.14.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.14.0"
+  }
+}
