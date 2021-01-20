@@ -2,13 +2,14 @@
   "name": "foo-lib",
   "version": "0.0.0",
   "description": "Foo lib",
-  "scripts": {
-    "build": "tsc -p src/"
-  },
   "author": "Walker Burgin <walkerburgin@gmail.com>",
   "license": "UNLICENSED",
+  "scripts": {
+    "build": "tsc -p src/",
+    "clean": "rm -rf dist"
+  },
   "dependencies": {
-      "react": "^16.14.0"
+    "react": "^16.14.0"
   },
   "devDependencies": {
     "@types/react": "^16.14.0"
